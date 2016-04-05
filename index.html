@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Favorite Hometown</title>
+    <title>Hometown</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -31,6 +31,13 @@
             'title':'Where my sneaky brother loiters',
             'map': new google.maps.LatLng(35.593908, -82.552843),
             'link':'http://www.ashevillesaltcave.com/'
+          },
+
+          {
+            'title':'Julia`s little house',
+            'map': new google.maps.LatLng(35.598046, -82.562622),
+            'link':'https://www.linkedin.com/in/julia-krebs-moberg-36b076b7',
+            'html':'<img src=https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAeHAAAAJDE1NjdhYzQ2LTNlNzAtNDc0Mi1iYWE0LWQ3NDM4NzhiNjczNw.jpg >'
           }
         ];
 
@@ -42,8 +49,16 @@
     </script>
         <style>
       #map {
+        display: flex;
+        align-items: flex-start;
         height:800px;
         width:800px;
+        margin-left: 500px;
+        margin-top: 80px;
+      }
+
+      body {
+        background-image: url(http://static1.squarespace.com/static/559ab4f5e4b0d2540b734ca5/559acbf9e4b0851a3e9457c2/56db42da27d4bd867dd2c6e7/1457210080478/Asheville.jpeg?format=2500w);
       }
     </style>
   </head>
